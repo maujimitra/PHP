@@ -1,8 +1,8 @@
 # PHP's basic functionality
-=======
+----
+
 ## PHP Basics
 
-----
 
 ### PHP Tags
 
@@ -12,7 +12,7 @@ PHP also allows for short open tag <? (which is discouraged since it is only ava
 
 If a file is pure PHP code, it is preferable to omit the PHP closing tag at the end of the file. This prevents accidental whitespace or new lines being added after the PHP closing tag, which may cause unwanted effects because PHP will start output buffering when there is no intention from the programmer to send any output at that point in the script.
 
-> Example
+Example
 
 > <?php
 echo "Hello world";
@@ -45,7 +45,7 @@ PHP supports 'C', 'C++' and Unix shell-style (Perl style) comments. For example:
 * / This is a one-line c++ style comment
 * /* This is a multi line comment
     yet another line of comment \*/
-* # This is a one-line shell-style comment
+* \# This is a one-line shell-style comment
 
 > 'C' style comments end at the first \*/ encountered. Make sure you don't nest 'C' style comments. It is easy to make this mistake if you are trying to comment out a large block of code.
 
