@@ -1,5 +1,5 @@
 # PHP's basic functionality
-----
+===========================
 
 ## PHP Basics
 
@@ -15,10 +15,10 @@ If a file is pure PHP code, it is preferable to omit the PHP closing tag at the 
 Example
 
 > <?php
-echo "Hello world";
-// ... more code
-echo "Last statement";
-// the script ends here with no PHP closing tag
+> echo "Hello world";
+> // ... more code
+> echo "Last statement";
+> // the script ends here with no PHP closing tag
 
 ### Escaping from HTML
 
