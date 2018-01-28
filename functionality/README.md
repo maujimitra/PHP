@@ -13,13 +13,13 @@ If a file is pure PHP code, it is preferable to omit the PHP closing tag at the 
 
 Example
 
-[code language="php"]
+```php
 <?php
 echo "Hello world";
 // ... more code
 echo "Last statement";
 the script ends here with no PHP closing tag
-[/code]
+```
 
 ### Escaping from HTML
 
@@ -27,9 +27,9 @@ Anything you write outside PHP tags that is <?php ?> or <?= ?> will be ignored b
 
 PHP opening and closing tags are:
 
-1. <?php echo 'your string here'; ?>
-2. <?= 'your string here' ?> // for PHP 5.4.0 and later
-3. <? echo 'this code is within short tags, but will only work '. 'if short_open_tag is enabled'; ?>
+1. \<?php echo 'your string here'; ?>
+2. \<?= 'your string here' ?> // for PHP 5.4.0 and later
+3. \<? echo 'this code is within short tags, but will only work '. 'if short_open_tag is enabled'; ?>
 4. <script language="php"> echo 'your string here'; </script> // This syntax is removed in PHP 7.0.0.
 5. <% echo 'You may optionally use ASP-style tags'; %>
     Code within these tags <%= $variable; %> is a shortcut for this code <% echo $variable; %>
